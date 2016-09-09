@@ -1,0 +1,268 @@
+.nf{
+  	clear: both;
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	background-color: #F9F9F9;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#left{
+  	float: left;
+  	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#right{
+	background-color: #00C8F8;
+	padding-top: 10px;
+	padding-bottom: 50px;
+  	float: right;
+}
+
+h2{
+	color: rgb(0,164,211);
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+#contName h3{
+	color: rgb(0,200,248);
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 6px;
+	margin-bottom: 0;
+}
+
+#contName{
+
+	margin-bottom: 30px;
+}
+
+#perfil, #objetivos, #datos, #habilidades{
+	padding-top: 2px;
+}
+
+#titlePerfil img, #titleObjetivos img, #titleDatos img, #titleHabilidades img{
+	float: left;
+	margin-right: 10px;
+}
+
+#titlePerfil h1{
+	padding-top: 5px;
+}
+
+#titleObjetivos h1, #titleHabilidades h1{
+	padding-top: 10px;
+}
+
+.leftTitles{
+	padding-bottom: 6px;
+}
+
+.leftTitlesH1{
+	color: rgb(0,164,211);
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+}
+
+.content{
+	color: #00C1F8;
+	font-size: 14px;
+}
+
+#contDatos h4{
+	padding-bottom: 8px;
+}
+
+#habilidad1 h3, #habilidad2 h3, #habilidad3 h3{
+	font-size: 20px;
+	padding: 0;
+	margin-top: 0;
+}
+
+#habilidad1, #habilidad2, #habilidad3{
+	padding-top: 12px;
+}
+
+.circulo-lleno{
+     width: 26px;
+     height: 26px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: rgb(0,162,232);
+     margin: 0 6px;
+}
+
+.circulo-vacio{
+     width: 26px;
+     height: 26px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #C9F1FD;
+     margin: 0 5px;
+}
+
+.puntuacion{
+	float: left;
+}
+
+.puntos{
+	float: right;
+	margin-top: 0;
+	padding-right: 14px;
+}
+
+/*Right Column*/
+
+#cursos, #experiencia, #lenguajes, #contacto{
+	margin-top: 32px;
+	margin-bottom: 16px;
+}
+
+#titleEducacion h1, #titleCursos h1,#titleExperiencia h1, #titleLenguajes h1, #titleContactos h1{
+	font-weight: bold;
+	font-family: sans-serif;
+	letter-spacing: 4px;
+	color: white;
+}
+
+#titleEducacion img, #titleCursos img, #titleExperiencia img, #titleLenguajes img, #titleContactos img{
+	float: left;
+	margin-right: 20px;
+}
+
+#titleEducacion h1{
+	padding-top: 36px;
+}
+
+.informacion{
+	color: white;
+	padding-left: 19px;
+}
+
+#universidad{
+	font-weight: bold;
+	padding-top: 8px;
+	margin-bottom: 0;
+}
+
+#carrera{
+	margin-top: 0;
+}
+
+h4{
+	padding: 0;
+	margin: 0;
+}
+
+#tipoEducacion1, #tipoEducacion2, #tipoEducacion3{
+	padding-top: 20px;
+}
+
+#nombreTipoInformacion1, #nombreTipoInformacion2, #nombreTipoInformacion3{
+	padding-bottom: 0;
+} 
+
+#right h3{
+	margin: 0;
+}
+
+#titleCursos h1{
+	padding-top: 32px;
+}
+
+#institucion3{
+	margin-top: 15px;
+}
+
+#contCursos > div{
+	padding-top: 10px;
+}
+
+#titleExperiencia h1{
+	padding-top: 16px;
+}
+
+#contExperiencia div{
+	margin-top: 16px;
+}
+
+#titleLenguajes h1{
+	padding-top: 30px;
+}
+
+#contLenguajes{
+	margin-top: 26px;
+}
+
+#contLenguajes ul li, #contContactos li{
+	margin-bottom: 10px;
+}
+
+#primeraColumna ul{
+	margin-bottom: 0;
+}
+
+.imagenLenguaje{
+	float: left; 
+	padding-right: 12px;
+}
+
+#titleContactos h1{
+	padding-top: 34px;
+}
+
+.contactosTelefono{
+	color: white;
+}
+
+
+@media screen and (max-width: 991px) {
+    #titleHabilidades h1, #titleObjetivos h1, #titlePerfil h1{
+    	font-size: 24px;
+    }
+
+    #contHabilidades li{
+    	margin-left: 2px;
+    }
+	@media screen and (max-width: 767px) {
+	    .contactosTelefono {
+	        padding-left: 46px;
+	    }
+
+	    #contHabilidades li{
+	    	margin-left: 15px;
+	    }
+
+		.puntos{
+			float: left;
+			margin-left: 24px;
+		}
+
+		#cursos, #experiencia, #lenguajes, #contacto{
+			margin-top: 60px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#titleExperiencia h1{
+		padding-top: 36px;
+	}
+
+	#titleLenguajes h1{
+		padding-top: 44px;
+	}
+}
